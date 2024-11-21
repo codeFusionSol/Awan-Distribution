@@ -1,0 +1,94 @@
+.initiativesTextContainer {
+    background: linear-gradient(180deg, #FEFEFE, #D1D6EE);
+    height: 100vh !important;
+}
+
+.initiativesTextH {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 44px;
+    color: var(--gray-color) !important;
+}
+
+
+.initiativesTextSpan {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 8px !important;
+    line-height: 29px;
+    color: #7B7B7B !important;
+    text-align: center !important;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.initiativesTextP {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 29px;
+    margin-bottom: 20px;
+    color: #7B7B7B !important;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+@media (max-width: 768px) {
+    .initiativesTextContainer {
+        height: auto !important;
+    }
+
+    .initiativesTextH {
+        text-align: center !important;
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 44px;
+        color: var(--gray-color) !important;
+    }
+
+    .initiativesTextSpan {
+        text-align: center !important;
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        margin-top: 8px !important;
+        line-height: 29px;
+        color: #7B7B7B !important;
+        text-align: center !important;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .initiativesTextP {
+        text-align: center !important;
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 29px;
+        margin-bottom: 20px;
+        color: #7B7B7B !important;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+
+
+}

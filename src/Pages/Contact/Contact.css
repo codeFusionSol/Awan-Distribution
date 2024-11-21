@@ -1,0 +1,61 @@
+.contactCardH {
+    font-weight: 900;
+    color: #37474F;
+    margin-bottom: 20px;
+}
+
+.contactCardp {
+    color: #7B7B7B;
+    margin-left: 10px;
+}
+
+.contactInput {
+    margin-top: 30px !important;
+    width: 100% !important;
+}
+
+
+.contactTextArea {
+    width: 100% !important;
+    margin-top: 30px !important;
+    height: 250px !important;
+}
+
+.sendBtn {
+    margin: 0 auto !important;
+    margin-top: 30px !important;
+    width: 50% !important;
+    padding: 10px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--white-color);
+    line-height: 1;
+    background-color: var(--primary-color);
+    padding: 20px 50px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.contactFlagImg {
+    /* flag color change */
+    filter: grayscale(1) invert(0.1);
+}
+
+.contactFlagImgWithColor {
+    filter: grayscale(0) invert(0) !important;
+}
+
+@media (max-width: 768px) {
+    .contactCardp {
+        font-size: 14px !important;
+    }
+    .contactCardH2  {
+        text-align: center !important;
+    }
+
+    .sendBtn {
+        width: 100% !important;
+    }
+
+}

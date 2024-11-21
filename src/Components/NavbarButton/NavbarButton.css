@@ -1,0 +1,15 @@
+.navbarButton {
+    background-color: var(--primary-color) !important;
+    color: var(--white-color) !important;
+    border: none !important;
+    padding: 15px 30px;
+    border-radius: 0 !important;
+    font-size: 13px !important;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .navbarButton {
+        margin-left: 0 !important;
+    }
+}

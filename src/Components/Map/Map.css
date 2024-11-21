@@ -1,0 +1,44 @@
+.mapContainerFluid {
+    background-image: url(../../../public/assets/Map/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.mapFlagsAndNames {
+    display: none !important;
+}
+
+
+@media (max-width: 768px) {
+    .mapDesignLine {
+        display: none !important;
+    }
+
+    .mapFlagNames {
+        display: none !important;
+    }
+
+    .mapFlags {
+        display: none !important;
+    }
+
+    .mapFlagsAndNames {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-wrap: wrap !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .mapFlagsAndNames >div > span {
+        margin-top: 5px !important;
+        font-size: 10px !important;
+    }
+
+}

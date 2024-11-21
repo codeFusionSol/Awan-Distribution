@@ -1,0 +1,119 @@
+.heroSectionContainerFluid {
+    background-image: url("../../../public/assets/heroSection/heroSectionBg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 620px;
+    padding: 100px 0;
+}
+
+.heroSectionContainer {
+    display: flex;
+    flex-direction: column !important;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.heroSectionHeading {
+    color: var(--white-color);
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.heroSectionPara {
+    color: var(--white-color);
+    font-size: 16px;
+    font-weight: 300;
+    width: 580px;
+    line-height: 2;
+    margin-top: 15px !important;
+}
+
+.heroSectionButtons {
+    margin-top: 36px;
+}
+
+.heroSectionButton1 {
+    background-color: transparent !important;
+    padding: 10px 50px !important;
+    color: var(--white-color);
+    font-weight: 300;
+    border: 1px solid var(--white-color);
+    margin-right: 30px;
+    transition: all 0.2s ease-in-out;
+}
+
+.heroSectionButton2 {
+    background-color: var(--white-color) !important;
+    padding: 10px 50px !important;
+    color: var(--black-color);
+    font-weight: 400;
+    border: 1px solid var(--white-color);
+    transition: all 0.2s ease-in-out;
+}
+
+.heroSectionButton1:hover {
+    background-color: var(--white-color) !important;
+    color: var(--black-color) !important;
+
+}
+
+.heroSectionButton2:hover {
+    background-color: transparent !important;
+    color: var(--white-color) !important;
+}
+
+@media (max-width: 768px) {
+
+    .heroSectionContainerFluid {
+        padding: 50px 0;
+    }
+
+    .heroSectionHeading {
+        /* font-size: 24px; */
+        font-weight: 700 !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .heroSectionPara {
+        font-size: 14px !important;
+        width: 100%;
+        line-height: 1.8 !important;
+        font-weight: 500 !important;
+        text-align: center !important;
+    }
+
+    .heroSectionButtons {
+        width: 100% !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .heroSectionContainerFluid {
+        height: auto !important;
+    }
+
+
+}
+
+@media (max-width: 480px) {
+
+    .heroSectionButtons {
+        flex-direction: column !important;
+    }
+
+    .heroSectionButton1 {
+        margin-right: 0 !important;
+        margin-bottom: 10px !important;
+    }
+
+    .heroSectionButton2 {
+        margin-right: 0 !important;
+    }
+
+}

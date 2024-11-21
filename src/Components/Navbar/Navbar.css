@@ -1,0 +1,201 @@
+.navbarContainerFluid {
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75) !important;
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75) !important;
+    -moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75) !important;
+}
+
+/* .hoverItem:hover {
+    background-color: var(--primary-color) !important;
+}
+.hoverItem:hover a {
+    color: var(--white-color) !important;
+} */
+.navbarList .nav-item {
+    margin-right: 20px;
+}
+
+.nav-item>a {
+    padding-bottom: 5px !important;
+}
+
+.navbarList .nav-link {
+    color: var(--gray-color);
+}
+
+.navbarList .nav-link:hover,
+.navbarList .nav-link:focus {
+    color: var(--black-color);
+}
+
+.navbarList .dropdown-menu {
+    min-width: 200px;
+}
+
+.homeLink {
+    color: var(--black-color);
+    width: 48px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.navbarButton {
+    margin-left: 35px;
+}
+
+.serviceDropDownContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px !important;
+    margin: 0 auto;
+    background-color: var(--white-color) !important;
+    border-radius: 0 0 50px 50px !important;
+    top: 153px !important;
+    left: 170px !important;
+    border: 1px solid var(--primary-color) !important;
+}
+
+.serviceDropDownRow {
+    height: 357px;
+}
+
+.serviceDropDownRow>:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 30px;
+    /* width: 373px; */
+}
+
+.serviceDropDownRow>:nth-child(2) {
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 30px 20px 30px;
+}
+
+.serviceDropDownRow>:nth-child(1) {
+    background-color: #F3F3F3 !important;
+    border-radius: 0 0 0 50px !important;
+}
+
+.serviceDropDownRow>:nth-child(1)>img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.dropDownRightHeading {
+    align-items: flex-start !important;
+    font-size: 20px !important;
+    color: var(--grayTwo-color);
+    margin-bottom: 5px !important;
+}
+
+.dropDownRightPara {
+    align-items: flex-start !important;
+    font-size: 11px !important;
+    line-height: 20px;
+    color: var(--grayTwo-color);
+    text-align: justify;
+}
+
+.serviceDropDownRow>:nth-child(2)>div>div>p {
+    align-items: flex-start !important;
+    font-size: 12px !important;
+}
+
+.serviceDropDownRow>:nth-child(2)>div>div>h5 {
+    align-items: flex-start !important;
+    font-size: 20px !important;
+    color: var(--primary-color);
+    margin-bottom: 10px ;
+}
+
+.serviceDropDownRow>div>h5,
+p {
+    text-align: left;
+    color: var(--black-color);
+}
+
+.dropDownRightLogo {
+    width: 263px;
+    max-width: 263px !important;
+    height: 158px;
+}
+
+@media (min-width: 992px) and (max-width: 1201px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0  0 5px 0 !important;
+        font-size: 12px !important;
+    }
+    
+}
+
+
+@media (max-width: 1440px) {
+    .serviceDropDownContainer {
+        left: 100px !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .serviceDropDownContainer {
+        width: 95% !important;
+        left: 25px !important;
+    }
+
+    .dropDownLeftHeading {
+        margin-bottom: 0px !important;
+        font-size: 12px !important;
+    }
+
+    .dropDownRightLogo {
+        width: 200px !important;
+        height: 120px !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .serviceDropDownContainer {
+        display: none !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbarList>li {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: 0 auto !important;
+    }
+
+    .nav-item {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .nav-item>a {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .navbarList>li>a {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .logo {
+        width: 100px !important;
+    }
+
+}

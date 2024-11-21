@@ -1,0 +1,73 @@
+.topbarContainerFluid {
+    background: linear-gradient(to right, #1A9246, #0D642D) !important;
+    padding: 15px;
+}
+
+.topbarContainer {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    color: var(--white-color);
+}
+
+.topBarRight {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.topbarRightDiv1 {
+    display: flex !important;
+    align-items: center !important;
+    padding-left: 20px;
+}
+
+.topbarCallVertor {
+    width: 30px !important;
+    height: 30px !important;
+    margin-right: 10px !important;
+}
+
+.topbarRightDiv1Span {
+    font-size: 13px !important;
+    font-weight: 500 !important;
+}
+
+.topbarRightDiv2 {
+    display: flex !important;
+    align-items: center !important;
+    padding-left: 20px;
+}
+
+.topbarCallVertor {
+    width: 30px !important;
+    height: 30px !important;
+    margin-right: 15px !important;
+}
+
+.topbarRightDiv2Span {
+    font-size: 13px !important;
+    font-weight: 500 !important;
+}
+
+.topBarLeft {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.topbarLeftImgDiv {
+    padding: 0px 10px;
+}
+
+.topBarLeftImg {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+
+@media (max-width: 768px) {
+
+    .topbarRightDiv1Span,
+    .topbarRightDiv2Span {
+        display: none !important;
+    }
+}

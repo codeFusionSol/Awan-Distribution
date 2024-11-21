@@ -1,0 +1,62 @@
+.ProfessionalServicesCard {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color);
+    font-weight: 300;
+    -webkit-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.58);
+    -moz-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.58);
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.58)
+}
+
+.ProfessionalServicesTextHeading {
+    font-size: 28px;
+    font-weight: 400;
+    color: var(--gray-color);
+    margin-bottom: 20px;
+}
+
+.ProfessionalServicesTextPara {
+    font-size: 16px;
+    font-weight: 300;
+    color: #7B7B7B;
+    line-height: 25px !important;
+}
+
+.textWithImgTextDiv,
+.textWithImgImgDiv {
+    margin-bottom: 50px;
+}
+
+@media (max-width: 992px) {
+
+    .textWithImgTextDiv,
+.textWithImgImgDiv {
+    margin-bottom: 20px;
+}
+
+    .ProfessionalServicesTextHeading {
+        /* margin-top: 25px !important; */
+        text-align: center !important;
+    }
+
+    .ProfessionalServicesTextPara {
+        text-align: center !important;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .ProfessionalServicesCard {
+        font-size: 14px !important;
+    }
+
+    .ProfessionalServicesTextHeading {
+        font-size: 24px !important;
+    }
+    .ProfessionalServicesTextPara {
+        font-size: 14px !important;
+    } 
+
+}

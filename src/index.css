@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span,
+ul,
+ol,
+li,
+img,
+button,
+input,
+textarea,
+form,
+select,
+option,
+i,
+b,
+strong,
+em {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px !important;
+}
+
+@media (max-width: 1200px) {
+
+  .container {
+    width: 100% !important;
+  }
+
+}
+
+:root {
+  --primary-color: #1A9246;
+  --secondary-color: #0D642D;
+  --black-color: #3A3A3A;
+  --gray-color: #8C8C8C;
+  --border-color: #FFC700;
+  --text-color: #1F2937;
+  --white-color: #FFFFFF;
+  --gray-color: #37474F;
+  --grayTwo-color: #5A5A5A;
+  --sidebar-color: #5D5D5D;
+}

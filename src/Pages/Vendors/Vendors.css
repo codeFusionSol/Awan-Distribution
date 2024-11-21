@@ -1,0 +1,78 @@
+.vendorBigLogo {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 60px;
+    margin-bottom: 53px;
+}
+
+.vendorDesc {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 15px;
+    text-align: left;
+    padding: 0 15px;
+}
+
+.vendorBigImg {
+    width: 100%;
+    max-width: 779px;
+    height: auto;
+}
+
+.vendorButton {
+    background-color: #0D642D;
+    color: var(--white-color);
+    width: 100%;
+    max-width: 251px;
+    height: 60px;
+    border: none;
+    margin-top: 50px;
+    font-size: 16px;
+    /* Added for better readability */
+}
+
+@media (max-width: 768px) {
+    .vendorBigLogo {
+        max-width: 200px;
+    }
+
+    .vendorDesc {
+        font-size: 14px;
+        text-align: center !important;
+    }
+
+    .vendorBigImg {
+        max-width: 300px;
+    }
+
+    .vendorButton {
+        max-width: 150px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .vendorBigLogo {
+        max-width: 150px;
+    }
+
+    .vendorDesc {
+        font-size: 12px;
+    }
+
+    .vendorBigImg {
+        width: 90%;
+    }
+
+    .vendorButton {
+        max-width: 120px;
+        font-size: 12px;
+    }
+}
+
+
+.row {
+    margin: 0;
+    width: 100%;
+    /* Ensure rows do not exceed viewport width */
+}

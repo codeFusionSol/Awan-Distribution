@@ -1,0 +1,27 @@
+.privacyTextH {
+    font-size: 28px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.privacyTextP {
+    font-weight: 300;
+    line-height: 25px;
+    color: #7B7B7B;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+
+    .privacyTextH {
+        text-align: center !important;
+        font-size: 22px !important;
+    }
+    
+    .privacyTextP {
+        text-align: center !important;
+        font-size: 14px !important;
+    }
+    
+}

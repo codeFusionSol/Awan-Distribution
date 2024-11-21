@@ -1,0 +1,157 @@
+.jobFormContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px !important;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    width: 100%;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* row-gap: 20px; */
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 15px !important;
+    border: 1px solid var(--white-color) !important;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-color);
+    line-height: 1;
+    margin: 0;
+    background-color: var(--white-color) !important;
+    margin-bottom: 15px !important;
+}
+
+.inputContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap !important;
+    width: 100%;
+}
+
+input,textarea {
+    width: 48% !important;
+    margin: 5px !important;
+    margin-top: 50px !important;
+    height: 60px;
+}
+
+input:nth-child(1) {
+    margin-top: 10px !important;
+}
+
+input:nth-child(2) {
+    margin-top: 10px !important;
+}
+
+.speacailInput1 {
+    width: 80% !important;
+}
+
+.speacailInput2 {
+    width: 17% !important;
+}
+
+.speacailInput3 {
+    width: 100% !important;
+}
+
+.sendBtn {
+    width: 50%;
+    padding: 10px;
+    margin-top: 50px !important;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--white-color);
+    line-height: 1;
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 25px 50px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+input,
+textarea>:focus {
+    outline: none !important;
+}
+
+@media (max-width: 992px) {
+    .jobFormContainer {
+        flex-direction: column;
+    }
+
+    input {
+        width: 100% !important;
+        height: 60px;
+        margin-top: 20px !important;
+    }
+
+    input:nth-child(2) {
+        margin-top: 20px !important;
+    }
+
+    .speacailInput1 {
+        margin-top: 20px !important;
+        width: 100% !important;
+    }
+
+    .speacailInput2 {
+        width: 100% !important;
+        margin-top: 20px !important;
+    }
+
+    .speacailInput3 {
+        margin-top: 20px !important;
+        width: 100% !important;
+    }
+
+    .sendBtn {
+        width: 100% !important;
+        margin-top: 20px !important;
+        padding: 10px;
+        border: none;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1;
+        background-color: var(--primary-color);
+        margin: 0;
+        padding: 25px 50px;
+        font-weight: 900;
+        letter-spacing: 0.5px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .right {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .inputContainer {
+        flex-direction: column;
+        column-gap: 0 !important;
+        row-gap: 0 !important;
+    }
+
+
+
+}

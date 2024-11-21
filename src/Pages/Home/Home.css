@@ -1,0 +1,10 @@
+.productsPortfolioContainer {
+    background-color: #f6f9f6;
+    margin-top: -100px;
+}
+
+@media (max-width: 576px) {
+    .productsPortfolioContainer {
+        margin-top: 0;
+    }
+}

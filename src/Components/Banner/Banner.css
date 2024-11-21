@@ -1,0 +1,33 @@
+.bannerText {
+    color: var(--white-color) !important;
+    font-size: 85px !important;
+    font-weight: bold !important;
+}
+
+@media (max-width: 992px) {
+
+    .bannerText {
+        font-size: 50px !important;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .bannerText {
+        font-size: 40px !important;
+    }
+
+    .bannerContainerFluid {
+        height: 350px !important;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .bannerText {
+        font-size: 25px !important;
+    }
+
+}

@@ -1,0 +1,8 @@
+.careerForm {
+    background: linear-gradient(135deg, #FEFEFE, #D1D6EE);
+}
+
+.jobInputDiv {
+    background-color: var(--white-color);
+    padding: 15px;
+}

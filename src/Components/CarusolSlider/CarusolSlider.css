@@ -1,0 +1,133 @@
+.card-img-top-200 {
+    overflow: hidden;
+    max-height: 200px;
+}
+
+.carouselSliderContainer {
+    background-color: #F6F9F6 !important;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+button.prev,
+button.next {
+    margin: 0 10px;
+    border: none !important;
+}
+
+.carusolSliderBtnIcon {
+    font-size: 40px !important;
+}
+
+/* Optional additional styling to improve appearance */
+.carousel .card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.carousel .card {
+    height: 100%;
+    overflow: hidden;
+}
+
+.carousel .card h1 {
+    margin: 0;
+}
+
+.carouselSliderButtonsDiv {
+    position: absolute !important;
+}
+
+.carusolSliderBtn {
+    background-color: #FFFFFF !important;
+    color: var(--black-color) !important;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.2) !important;
+    padding: 10px !important;
+    border-radius: 0 !important;
+
+}
+
+#carusolSliderBtn1 {
+    position: absolute !important;
+    left: 90px !important;
+    margin-top: 210px !important;
+    z-index: 5 !important;
+}
+
+#carusolSliderBtn2 {
+    position: absolute !important;
+    right: 90px !important;
+    margin-top: 210px !important;
+    z-index: 5 !important;
+}
+
+@media (max-width: 1440px) {
+    #carusolSliderBtn1 {
+        left: 5px !important;
+    }
+
+    #carusolSliderBtn2 {
+        right: 5px !important;
+    }
+}
+
+@media (max-width: 1250px) {
+    #carusolSliderBtn1 {
+        margin-top: 140px !important;
+        padding: 5px !important;
+    }
+
+    #carusolSliderBtn2 {
+        margin-top: 140px !important;
+        padding: 5px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    #carusolSliderBtn1 {
+        margin-top: 280px !important;
+        padding: 5px !important;
+    }
+
+    #carusolSliderBtn2 {
+        margin-top: 280px !important;
+        padding: 5px !important;
+    }
+}
+
+@media (max-width: 630px) {
+    #carusolSliderBtn1 {
+        margin-top: 0px !important;
+        position: relative !important;
+        display: inline-block !important;
+        padding: 5px !important;
+    }
+
+    #carusolSliderBtn2 {
+        margin-top: 0px !important;
+        position: relative !important;
+        display: inline-block !important;
+        padding: 5px !important;
+    }
+
+    .carusolSliderBtnDiv {
+        margin-top: 25px !important;
+        display: inline-block !important;
+    }
+}
+
+@media (max-width: 480px) {
+    #carusolSliderBtn1 {
+        padding: 0px !important;
+    }
+
+    #carusolSliderBtn2 {
+        padding: 0px !important;
+    }
+
+}

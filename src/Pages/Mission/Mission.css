@@ -1,0 +1,67 @@
+.longCard {
+    box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.35);
+}
+
+.longCardH {
+    margin-top: 50px;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.longCardP {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    color: #7B7B7B;
+}
+
+.rightSideCard {
+    box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.35);
+    padding: 15px 25px 15px 12px;
+    margin-left: 15px !important;
+    border-left: 28px solid #328E4D;
+    margin-bottom: 20px;
+}
+
+.rightSideCardH {
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.rightSideCardP {
+    color: #7B7B7B;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+
+@media (max-width: 1024px) {
+    .rightSideCard {
+        margin-top: 25px;
+        margin-left: 0 !important;
+    }
+
+    .longCardH {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .longCardP {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .rightSideCardH {
+        font-size: 20px;
+    }
+
+    .rightSideCardP {
+        font-size: 14px;
+    }
+
+}
